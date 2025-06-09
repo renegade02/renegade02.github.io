@@ -2,14 +2,14 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'mashunterbd', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/gitprofile/',
+  base: '/mashunter/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -19,7 +19,7 @@ const CONFIG = {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
+          forks: true, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
@@ -33,134 +33,119 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Helpful video Content',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'I have a YouTube channel through which I create content and distribute it to everyone so that everyone can benefit from it',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://raw.githubusercontent.com/mashunterbd/mashunter/main/image/Picsart_24-03-06_16-17-15-331.jpg',
+          link: 'https://www.youtube.com/@mashunter',
         },
         {
-          title: 'Project Name',
+          title: 'Problem Solving Community',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Many problems related to Android, Linux, and Windows are constantly encountered by our community with some solutions and is updated over time',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://raw.githubusercontent.com/mashunterbd/mashunter/main/image/Picsart_24-03-06_16-20-26-775.jpg',
+          link: 'https://t.me/sloveproblems',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
-    description: '',
+    title: 'Portfolio of MAS HUNTER ',
+    description: 'This is my Personal Portfolio site.',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
-    facebook: '',
-    instagram: '',
-    reddit: '',
-    threads: '',
-    youtube: '', // example: 'pewdiepie'
-    udemy: '',
+    linkedin: 'mashunter',
+    twitter: 'mashunterbd',
+    mastodon: '',
+    facebook: 'mashunter.fb',
+    instagram: 'mashunter.ins',
+    youtube: 'mashunter', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: 'mashunter',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
-    telegram: '',
-    website: 'https://www.arifszn.com',
+    telegram: 'mashunterbd',
+    website: 'mashunterbd.github.io/mashunter',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'pentester.mas@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1z6XcqaDIR20UWdqyjexM_wSZDyJ7R-O1/view?usp=drivesdk', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
+    'HTML',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'JavaScript',
+    'Python',
+    'C',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Byte Capsule',
+      position: 'Jr.Penetration Taster',
+      from: 'February 2024',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://bytecapsuleit.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'YouTube Inc',
+      position: 'Content Creator',
+      from: 'August 2020',
+      to: 'Present',
+      companyLink: 'https://www.youtube.com/@mashunter',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Ethical Hacking for Professionals',
+      body: 'This certificate is proudly presented by Byte Capsule for successfully completing 7 Months of online course',
+      year: 'February 2024',
+      link: 'https://drive.google.com/file/d/1w9CgoVDU3VF4jQEjVFQJdRlbPCOHsfJg/view?usp=drivesdk',
     },
+    { 
+    name: 'Certified Ethical Hacker',
+      body: 'Certification through examination administered by Team Matrix',
+      year: 'August 2023',
+      link: 'https://drive.google.com/file/d/1b5ehHZJfdEkXbrUvPZSZnglkRsELpjhi/view?usp=drivesdk',
+      },
+    { 
+    name: 'Cyber Security Fundamentals in Bangla',
+      body: 'Certification taught by Sakib Haque Zisan on Udemy.',
+      year: 'March 2024',
+      link: 'https://www.udemy.com/certificate/UC-03879d18-dcb9-44f5-82b7-7e33d60f61f7/',
+      },
+    { 
+    name: 'Web Hacking for Beginners ',
+      body: 'Certification taught by Juravlea Nicolae on Udemy.',
+      year: 'March 2024',
+      link: 'https://www.udemy.com/certificate/UC-bb9237df-e603-466a-aa31-839dbabe8c6a/',
+      }
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Anjuman Mokhlesur Rahman Polytechnic Institute',
+      degree: 'Computer Science and Engineering [CSE]',
+      from: '2023',
+      to: 'Present',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
-  ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      institution: 'Metropolitan Creative College',
+      degree: 'Secondary School Certificate [SSC]',
+      from: '2019',
+      to: '2020',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    source: 'medium', // medium | dev
+    username: 'mashunter', // to hide blog section, keep it empty
+    limit: 3, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
@@ -171,7 +156,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'nord',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -235,12 +220,12 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/mashunterbd/mashunter"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >mashunterbd</a> and ❤️`,
 
-  enablePWA: true,
+  enablePWA: false,
 };
 
 export default CONFIG;
